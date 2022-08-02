@@ -1,6 +1,7 @@
 name: Create Release With Binary Assets
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - v*
